@@ -1,0 +1,3 @@
+#set to string
+string = {'a','b','a','b'}
+string = ''.join(string)
