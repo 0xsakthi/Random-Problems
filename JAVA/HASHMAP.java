@@ -33,6 +33,7 @@ public class hashmap {
 		HashMap<String,Integer> hm2 = new HashMap<>(); //create new hashmap
 
 		hm2.putAll(hm); //copy the hm to -> hm2
+		
 
 		System.out.println(hm2.get("dosa"));
 	}	
