@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Simple file upload using Python Flask</title>
+</head>
+<body>
+    {% if filestring %}
+      <h1>Raw image:</h1>
+      <h1>{{filestring}}</h1>
+      <img src="data:image/png;base64, {{filestring}}" alt="alternate" />.
+    {% else %}
+      <h1></h1>
+    {% endif %}
+</body>
