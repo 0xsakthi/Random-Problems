@@ -18,7 +18,7 @@ db = mysql.connector.connect(
 server  = smtplib.SMTP("smtp.gmail.com",587)
 server.starttls()
 email = "hacko2852@gmail.com"
-server.login("subiramaniyan2805@gmail.com","Subiramaniyan@2002")
+server.login("subiramaniyan2805@gmail.com","")
 app.secret_key = 'not_easy'
 
 #LLFI inclusion and SSTI
